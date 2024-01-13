@@ -1,0 +1,236 @@
+body{
+    background-color: black;
+    color: white;
+}
+/* CONTAINERS */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    width: 34%;
+    height: 36em;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: auto;
+}
+.bar-notif{
+    display: flex;
+    width: 100%;
+    height: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container-date{
+    display: flex;
+    margin-left: 10px;
+}
+.container-extras{
+    display: flex;
+}
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+}
+.first{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.myname{
+    display: flex;
+}
+.more{
+    display: flex;
+}
+.second{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+}
+.third{
+    width: 100%;
+    display: flex;
+    margin-left: 4px;
+}
+.third b{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.four{
+    width: 100%;
+    display: flex;
+    margin-left: 4px;
+}
+.four b{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.five{
+    display: flex;
+    width: 100%;
+}
+.six{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4px;
+}
+.seven{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.ssa{
+    width: 40px;
+    height: 25px;
+    margin: 10px 80px 10px;
+}
+.eight{
+    display: flex;
+    width: 100%;
+}
+.nine{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.ten{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+.cuadricula {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.imagen {
+    flex: 0 0 calc(33.33% - 10px); 
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;  
+    
+}
+.boton {
+    background-color: #1a1a1a; 
+    color: #ffffff;
+    font-weight:bold;
+    border: none; 
+    border-radius: 8px; 
+    padding: 8px 44px; 
+    margin:5px 3px; 
+    cursor: pointer; 
+    font-size: 14x; 
+    outline: none; 
+}
+.botond {
+    background-color: #1a1a1a; 
+    color: #ffffff;
+    font-weight:bold;
+    border: none; 
+    border-radius: 8px; 
+    padding: 8px 10px; 
+    margin:5px 1px; 
+    cursor: pointer; 
+    font-size: 14x; 
+    outline: none; 
+}
+.linea{
+    width: 50%;
+    height: 2px;    
+    background-color: #dbdbdb;
+}
+.linea-dos{
+    width: 50%;
+    height: 2px;    
+    background-color: #0f0f0f;
+}
+.linea-tres{
+    width: 100%;
+    height: 1px;    
+    background-color: #dbdbdb;
+}
+.aperro{
+    transform: scaleX(-1);
+}
+.m{
+    font-size: 25px;
+    margin: 10px;
+}
+.first__text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+}
+.container-asd {
+    display: flex;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+.left-six b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.item {
+    width: calc(50% - 10px); 
+    margin-bottom: 20px; 
+    padding: 10px;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image-perfil{
+    width: 75px;
+    height: 75px;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+
+.image-perfil-dos{
+    width: 25px;
+    height: 25px;
+    margin-top: 7px;
+    margin-right: 30px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+.eleven{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+}
+
+.date{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 4px;
+}
+.space-icon{
+    font-size: 14px;
+    margin: 3px;
+}
+.oval-icon {
+    width: 25px;
+    height: 10px;
+    margin: 2px;
+    border: 2px solid #fff;
+    /* background: linear-gradient(to left, rgb(13, 142, 71) 50%, rgb(0, 0, 0) 30%); */
+    background: linear-gradient(to left, rgb(66, 66, 66) 50%, rgb(0, 0, 0) 30%);
+    border-radius: 100px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    font-size: 10px;
+    font-weight: bold;
+}
